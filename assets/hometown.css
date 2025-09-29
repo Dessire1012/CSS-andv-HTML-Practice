@@ -1,0 +1,68 @@
+/*
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+.title {
+  margin-top: 0px;
+}
+
+.hero {
+  background-image: url(../assets/images/torshov.jpg);
+  background-size: cover;
+  height: 500px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  background-color: #457b9d;
+  padding: 0px 10px;
+  color: white;
+}
+
+.desc {
+  background-color: #1d3557;
+  padding: 0px 10px;
+  color: white;
+}
+
+.act-section {
+  margin: 0px;
+  background-color: #f1faee;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activity {
+  border-radius: 50px;
+}
+
+.guide-section {
+  background-color: #a8dadc;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  padding: 20px;
+  width: 500px;
+  border-bottom: #1d3557 solid 5px;
+  color: #1d3557;
+}
